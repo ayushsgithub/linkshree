@@ -1,0 +1,19 @@
+{
+  "name": "Ayush",
+  "avatar": "https://pbs.twimg.com/profile_images/1599300882906382339/hFTxu-6N_400x400.jpg",
+  "links": [
+    {
+      "title": "GitHub",
+      "href": "https://github.com/ayushsgithub"
+    },
+    {
+      "title": "Twitter",
+      "href": "https://twitter.com/ayushisreal"
+    },
+    {
+      "title": "My Personal Site",
+      "href": "https://ayushsport.netlify.app/",
+      "image": "https://pbs.twimg.com/profile_images/1599300882906382339/hFTxu-6N_400x400.jpg"
+    }
+  ]
+}
