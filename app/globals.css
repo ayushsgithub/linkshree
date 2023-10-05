@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     height: 100vh;
     background-image: linear-gradient(
       25deg,
@@ -16,4 +16,23 @@ body {
       hsl(264deg 54% 40%) 87%,
       hsl(287deg 84% 36%) 100%
     );
-  }
+  } */
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    100deg,
+    hsl(0deg 0% 94%) 0%,
+    hsl(0deg 12% 92%) 9%,
+    hsl(0deg 24% 89%) 18%,
+    hsl(0deg 34% 87%) 27%,
+    hsl(6deg 41% 85%) 36%,
+    hsl(20deg 38% 83%) 45%,
+    hsl(35deg 34% 81%) 55%,
+    hsl(49deg 32% 79%) 64%,
+    hsl(45deg 27% 78%) 73%,
+    hsl(31deg 24% 77%) 82%,
+    hsl(14deg 21% 76%) 91%,
+    hsl(0deg 17% 75%) 100%
+  );
+}

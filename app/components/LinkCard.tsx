@@ -27,7 +27,7 @@ const LinkCard = ({title, image, href}: Link) => {
             />
           )}
         </div>
-        <h2 className="flex justify-center items-center font-semibold w-full text-gray-700 -ml-10">
+        <h2 className="flex justify-center items-center font-semibold w-full text-gray-700 -ml-8">
           {title}
         </h2>
       </div>
