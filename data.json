@@ -13,9 +13,25 @@
       "image": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     },
     {
+      "title": "LindedIn",
+      "href": "https://www.linkedin.com/in/ayushslink",
+      "image": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    },
+    {
       "title": "Twitter",
       "href": "https://twitter.com/ayushisreal",
       "image": "https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0.jpg"
+    },
+
+    {
+      "title": "Hashnode",
+      "href": "https://ayushisreal.hashnode.dev/",
+      "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
+    },
+    {
+      "title": "YouTube",
+      "href": "https://www.youtube.com/@5ayush6/featured",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IHiImZV7k6CIUT9m1HlDusOmlchHyeYhnw&usqp=CAU"
     }
   ],
   "socials": [
