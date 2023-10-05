@@ -1,24 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Linkshree
+
+Linkshree is an open-source project that aims to provide users with useful links and resources for learning and growing as a developer.
+
+
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Clone the repository:
+
+```
+git clone https://github.com/ayushsgithub/linkshree.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the dependencies: 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the project locally:
+
+```
+npm run dev
+```
+
+This will start the Next.js development server so you can view the app at http://localhost:3000.
+
+4. Make changes to the code and submit a pull request! The project is open source and contributions are welcome.
+
+## Project Structure
+
+```
+.
+├── components/     # React components
+├── pages/          # Next.js pages 
+├── public/         # Static assets 
+├── styles/         # CSS stylesheets
+├── utils/          # Helper functions
+└── next.config.js  # Next.js config
+```
+
+## Contributing 
+
+Please read the CONTRIBUTING.md file for guidelines on contributing to the project. This includes a code of conduct, a style guide, and information about how to submit issues and pull requests.
+
+The main branches are:
+
+- `main` for stable releases 
+- `develop` for development 
+
+All pull requests should be submitted against the `develop` branch.
+
+## License
+
+This project is licensed under the MIT Licensee -see the LICENSE file for details.
+
+Hope this helps! Let me know if you have any other questions.
 
 ## Learn More
 
