@@ -1,32 +1,18 @@
 import Image from "next/image";
 import data from "@/data.json";
-// import { get } from '@vercel/edge-config';
 import { redirect } from "next/navigation";
 import LinkCard from "./components/LinkCard";
 import TwitterIcon from "./components/TwitterIcon";
 import GithubIcon from "./components/GithubIcon";
 
-interface Data {
-  name: string;
-  avatar: string;
-  links: Link[];
-}
-interface Link {
-  href: string;
-  title: string;
-  image?: string;
-}
-
 export default async function Home() {
-  // const data: Data | undefined = await get('linktree');
-  // const data = null
 
   if (!data) {
     redirect("https://linktr.ee/selenagomez");
   }
 
   return (
-    <div className="flex items-center flex-col mx-auto max-w-2xl justify-center mt-16 px-8">
+    <div className="flex items-center flex-col mx-auto max-w-2xl justify-center mt-24 md:mt-16 px-8">
       <Image
         priority
         className="rounded-full"
