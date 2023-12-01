@@ -12,7 +12,7 @@ export default async function Home() {
   }
 
   return (
-    <div className="flex items-center flex-col mx-auto max-w-2xl justify-center mt-24 md:mt-16 px-8">
+    <div className="flex items-center flex-col mx-auto max-w-2xl justify-center mt-20 mb-10 md:mt-14 px-8">
       <Image
         priority
         className="rounded-full"

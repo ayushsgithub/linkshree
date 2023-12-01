@@ -8,6 +8,7 @@ const nextConfig = {
       "encrypted-tbn0.gstatic.com",
       "cdn.hashnode.com",
       "upload.wikimedia.org",
+      "cdn.iconscout.com"
     ],
   },
 };
