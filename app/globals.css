@@ -19,7 +19,7 @@
   } */
 
 body {
-  height: fit-content;
+  height: 108vh;
   background-image: linear-gradient(
     100deg,
     hsl(0deg 0% 94%) 0%,
