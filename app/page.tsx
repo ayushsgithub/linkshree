@@ -8,7 +8,7 @@ import GithubIcon from "./components/GithubIcon";
 export default async function Home() {
 
   if (!data) {
-    redirect("https://linktr.ee/selenagomez");
+    redirect("https://ayushsport.netlify.app/");
   }
 
   return (
@@ -21,7 +21,7 @@ export default async function Home() {
         width={96}
         height={96}
       />
-      <div className="flex space-x-1 mt-4 mb-8 items-center">
+      <div className="flex space-x-[5px] mt-4 mb-8 items-center">
         <h1 className="font-bold  text-xl text-black">{data.name}</h1>
         <Image width={16} height={16} alt="tick" src={data.verified} />
       </div>
@@ -39,9 +39,9 @@ export default async function Home() {
             rel="noopener noreferrer"
           >
             {social.title.includes("twitter") ? (
-              <TwitterIcon />
+              <div className="hover:text-blue-400"><TwitterIcon /></div>
             ) : social.title.includes("github") ? (
-              <GithubIcon />
+              <div className="hover:text-gray-700"><GithubIcon /></div>
             ) : null}
           </a>
         ))}

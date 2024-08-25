@@ -18,6 +18,9 @@
     );
   } */
 
+  /* https://www.joshwcomeau.com/gradient-generator/ */
+
+
 body {
   height: 108vh;
   background-image: linear-gradient(
@@ -36,3 +39,4 @@ body {
     hsl(0deg 17% 75%) 100%
   );
 }
+
